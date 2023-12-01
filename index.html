@@ -1,0 +1,237 @@
+<!doctype html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Bootstrap demo</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+     <style>
+<!doctype html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Bootstrap demo</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+  </head> 
+  <body> 
+    <h1>Hello, world!</h1> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  </body> 
+</html>
+
+body{ 
+        margin: 0; 
+        padding: 0; 
+        box-sizing: border-box; 
+    } 
+    
+    .roundedbg{ 
+        width: 50px; 
+        height: 50px; 
+        background-color: rgb(244, 251, 248); 
+        text-align: center; 
+        display: flex; 
+        border-radius: 100%; 
+        align-items: center; 
+        justify-content: center; 
+         
+    } 
+    .snd-bg{ 
+        width: 45px; 
+        height: 45px; 
+        background-color: rgb(134, 149, 133); 
+        border-radius: 100%; 
+        position: absolute; 
+        text-align: center; 
+        display: flex; 
+    } 
+    #img-i{ 
+        width: 97%; 
+        height: 97%; 
+        margin: auto; 
+         /* transform: translate(0% ,5%);  */ 
+        border-radius: 50%; 
+        position: relative; 
+    } 
+  
+ 
+ 
+.ico{ 
+    color: #f44336; 
+    font-size: 100px; 
+    margin-top: 27%; 
+} 
+#nav-bkg{ 
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)); 
+} 
+ 
+.pt{ 
+     
+    padding: 10%; 
+} 
+#front-page-text button{ 
+  background-color:#1b8c57; 
+  color: #fff; 
+ 
+} 
+.mid-text-bg{ 
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); 
+} 
+#front-page-text button:hover, button:focus{ 
+   
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) #198754; 
+   
+  animation: pulse 1s; 
+  box-shadow: 0 0 0 2em rgba(#fff,0); 
+} 
+ 
+ 
+ 
+/* Container for skill bars */ 
+.s-bar { 
+  width: 100%; /* Full width */ 
+  background-color: #ddd; /* Grey background */ 
+} 
+#skils-page{ 
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/skills3.jpg"); 
+  /* height: 100vh; */ 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding: 35px; 
+} 
+ 
+/*needs to be responsive*/ 
+ 
+ 
+ 
+ 
+.html {width: 80%; background-color: rgb(135, 180, 132);} /* Green */ 
+.css {width: 80%; background-color: #2196F3;} /* Blue */ 
+.js {width: 65%; background-color: #f44336;} /* Red */ 
+.php {width: 60%; background-color: #808080;} /* Dark Grey */ 
+.cpp{width: 80%; background-color: aquamarine;} 
+.java{width: 88%; background-color: rgb(210, 145, 5);} 
+.python{width: 50%; background-color: #b81dc3;} 
+ p{ 
+    color: white; 
+     
+ }    
+ @media (min-width: 700px) { 
+    .mid{ 
+        background-color: #ddd; 
+    } 
+    #front-page-text{ 
+      width: 55%; 
+    } 
+    #front-page-text button{ 
+      margin-top: 20px; 
+    } 
+    #skills-container{ 
+      left: 25%;  
+      width: 50%;  
+      height: 50%; 
+    } 
+    #abt{ 
+      padding-top: 150px; 
+    } 
+    #home{ 
+      height: 100vh;  
+      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
+      margin: 0; 
+       padding: 0;  
+       background-size: cover; 
+        background-position: center; 
+    } 
+     
+  } 
+   
+ @media (max-width: 700px) {  
+     
+    #home{ 
+      height: 70vh;  
+      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
+      margin: 0; 
+       padding: 0;  
+       background-size: cover; 
+        background-position: center; 
+    } 
+     
+  } 
+  @media (max-width: 700.98px) {  
+    #front-page-text{ 
+      width: auto; 
+    } 
+    #front-page-text button{ 
+      margin-top: 20px; 
+    } 
+    #abt{ 
+      padding-top: 50px; 
+    } 
+    #skills{ 
+      background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5))   ; 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      width: 100%; 
+      padding: 100px 0; 
+    } 
+        #home{ 
+      height: 100vh;  
+      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
+      margin: 0; 
+       padding: 0;  
+       background-size: cover; 
+        background-position: center; 
+    } 
+     
+  } 
+  @media (max-width: 1000px) { 
+     
+    #about-me-pic{ 
+      display: none; 
+    } 
+  }  
+  
+   
+/*About ME*/ 
+ 
+/*Contact Me*/ 
+#contact-me{ 
+  height: 100vh;  
+  padding-top: 100px;  
+  background:linear-gradient(rgba(0,0,0,0.5),
+
+
+     </style>
+</head> 
+  <body> 
+    <nav class="navbar navbar-expand-lg  navbar-dark " id="nav-bkg" > 
+        <div class="container text-end " style="border: 0px dashed white; "> 
+            <div class="navbar-brand mx-3 roundedbg"> 
+                <div class=" snd-bg" style="cursor: pointer;"> 
+           <img src="1.img.jpg" id="img-i" alt=""><em style="padding-left: 10px; color: #1b8c57; cursor: pointer;">Bruktawet Getu</em> 
+        </div>  
+    </div> 
+            <button class="navbar-toggler"  
+                    type="button"  
+                    data-bs-toggle="collapse"  
+                    data-bs-target="#navmenu"> 
+                <span class="navbar-toggler-icon"></span></button> 
+             
+           <div class="collapse navbar-collapse " id="navmenu"> 
+            <ul class="navbar-nav ms-auto  "> 
+               <li class="nav-item nav-hov"><a href="#home" class="nav-link px-3 active">Home</a></li> 
+               <li class="nav-item nav-hov"><a href="#about-me" class="nav-link px-3 ">About Me</a></li> 
+               <li class="nav-item nav-hov"><a href="#contact-me" class="nav-link px-3">Contact Me</a></li> 
+               <li class="nav-item nav-hov"><a href="#skils-page" class="nav-link px-3">Skills</a></li> 
+               <li class="nav-item nav-hov"><a href="#" class="btn  btn-success">Let's Talk</a></li> 
+ 
+               </ul> 
+            </div> 
+        </div> 
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  </body> 
+</html>
