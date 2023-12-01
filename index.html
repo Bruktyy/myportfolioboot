@@ -1,237 +1,163 @@
-<!doctype html> 
-<html lang="en"> 
-  <head> 
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Bootstrap demo</title> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
-     <style>
-<!doctype html> 
-<html lang="en"> 
-  <head> 
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Bootstrap demo</title> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
-  </head> 
-  <body> 
-    <h1>Hello, world!</h1> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
-  </body> 
-</html>
-
-body{ 
-        margin: 0; 
-        padding: 0; 
-        box-sizing: border-box; 
-    } 
-    
-    .roundedbg{ 
-        width: 50px; 
-        height: 50px; 
-        background-color: rgb(244, 251, 248); 
-        text-align: center; 
-        display: flex; 
-        border-radius: 100%; 
-        align-items: center; 
-        justify-content: center; 
-         
-    } 
-    .snd-bg{ 
-        width: 45px; 
-        height: 45px; 
-        background-color: rgb(134, 149, 133); 
-        border-radius: 100%; 
-        position: absolute; 
-        text-align: center; 
-        display: flex; 
-    } 
-    #img-i{ 
-        width: 97%; 
-        height: 97%; 
-        margin: auto; 
-         /* transform: translate(0% ,5%);  */ 
-        border-radius: 50%; 
-        position: relative; 
-    } 
-  
- 
- 
-.ico{ 
-    color: #f44336; 
-    font-size: 100px; 
-    margin-top: 27%; 
-} 
-#nav-bkg{ 
-  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)); 
-} 
- 
-.pt{ 
-     
-    padding: 10%; 
-} 
-#front-page-text button{ 
-  background-color:#1b8c57; 
-  color: #fff; 
- 
-} 
-.mid-text-bg{ 
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); 
-} 
-#front-page-text button:hover, button:focus{ 
-   
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) #198754; 
-   
-  animation: pulse 1s; 
-  box-shadow: 0 0 0 2em rgba(#fff,0); 
-} 
- 
- 
- 
-/* Container for skill bars */ 
-.s-bar { 
-  width: 100%; /* Full width */ 
-  background-color: #ddd; /* Grey background */ 
-} 
-#skils-page{ 
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/skills3.jpg"); 
-  /* height: 100vh; */ 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  padding: 35px; 
-} 
- 
-/*needs to be responsive*/ 
- 
- 
- 
- 
-.html {width: 80%; background-color: rgb(135, 180, 132);} /* Green */ 
-.css {width: 80%; background-color: #2196F3;} /* Blue */ 
-.js {width: 65%; background-color: #f44336;} /* Red */ 
-.php {width: 60%; background-color: #808080;} /* Dark Grey */ 
-.cpp{width: 80%; background-color: aquamarine;} 
-.java{width: 88%; background-color: rgb(210, 145, 5);} 
-.python{width: 50%; background-color: #b81dc3;} 
- p{ 
-    color: white; 
-     
- }    
- @media (min-width: 700px) { 
-    .mid{ 
-        background-color: #ddd; 
-    } 
-    #front-page-text{ 
-      width: 55%; 
-    } 
-    #front-page-text button{ 
-      margin-top: 20px; 
-    } 
-    #skills-container{ 
-      left: 25%;  
-      width: 50%;  
-      height: 50%; 
-    } 
-    #abt{ 
-      padding-top: 150px; 
-    } 
-    #home{ 
-      height: 100vh;  
-      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
-      margin: 0; 
-       padding: 0;  
-       background-size: cover; 
-        background-position: center; 
-    } 
-     
-  } 
-   
- @media (max-width: 700px) {  
-     
-    #home{ 
-      height: 70vh;  
-      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
-      margin: 0; 
-       padding: 0;  
-       background-size: cover; 
-        background-position: center; 
-    } 
-     
-  } 
-  @media (max-width: 700.98px) {  
-    #front-page-text{ 
-      width: auto; 
-    } 
-    #front-page-text button{ 
-      margin-top: 20px; 
-    } 
-    #abt{ 
-      padding-top: 50px; 
-    } 
-    #skills{ 
-      background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5))   ; 
-      background-size: cover; 
-      background-position: center; 
-      background-repeat: no-repeat; 
-      width: 100%; 
-      padding: 100px 0; 
-    } 
-        #home{ 
-      height: 100vh;  
-      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg);  
-      margin: 0; 
-       padding: 0;  
-       background-size: cover; 
-        background-position: center; 
-    } 
-     
-  } 
-  @media (max-width: 1000px) { 
-     
-    #about-me-pic{ 
-      display: none; 
-    } 
-  }  
-  
-   
-/*About ME*/ 
- 
-/*Contact Me*/ 
-#contact-me{ 
-  height: 100vh;  
-  padding-top: 100px;  
-  background:linear-gradient(rgba(0,0,0,0.5),
 
 
-     </style>
-</head> 
-  <body> 
-    <nav class="navbar navbar-expand-lg  navbar-dark " id="nav-bkg" > 
-        <div class="container text-end " style="border: 0px dashed white; "> 
-            <div class="navbar-brand mx-3 roundedbg"> 
-                <div class=" snd-bg" style="cursor: pointer;"> 
-           <img src="1.img.jpg" id="img-i" alt=""><em style="padding-left: 10px; color: #1b8c57; cursor: pointer;">Bruktawet Getu</em> 
-        </div>  
-    </div> 
-            <button class="navbar-toggler"  
-                    type="button"  
-                    data-bs-toggle="collapse"  
-                    data-bs-target="#navmenu"> 
-                <span class="navbar-toggler-icon"></span></button> 
-             
-           <div class="collapse navbar-collapse " id="navmenu"> 
-            <ul class="navbar-nav ms-auto  "> 
-               <li class="nav-item nav-hov"><a href="#home" class="nav-link px-3 active">Home</a></li> 
-               <li class="nav-item nav-hov"><a href="#about-me" class="nav-link px-3 ">About Me</a></li> 
-               <li class="nav-item nav-hov"><a href="#contact-me" class="nav-link px-3">Contact Me</a></li> 
-               <li class="nav-item nav-hov"><a href="#skils-page" class="nav-link px-3">Skills</a></li> 
-               <li class="nav-item nav-hov"><a href="#" class="btn  btn-success">Let's Talk</a></li> 
- 
-               </ul> 
-            </div> 
-        </div> 
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
-  </body> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="bg-primary-subtle">
+
+
+    <header>
+        <div id="home"></div>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark opacity-75">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon my-2"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end fw-bold fs-5" id="navbarNav">
+                    <ul class="navbar-nav mx-5 my-2">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-2" aria-current="page" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#project">PROJECT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">CONTACTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <br><br><br><br><br><br><br>
+        <div class="row justify-content-evenly">
+            <h1 class="column-xxl col-6 my-5 display-1 fw-bold fst-italic row align-items-end">Hello, I'm Bruktawet
+                <br>Getu
+            </h1>
+            <img width="300px" src="1.img.jpg" 
+                class="col-md-3 float-md-end mb-5 ms-md-3 col-sm-4 col-md-3 col-lg-3 my-5">
+        </div>
+
+        <br><br>
+
+        <div id="about"></div><br><br>
+        <div class="clearfix">
+            <hr class="border border-dark border-3 opacity-75">
+            <br><br>
+            <h2 class="display-5 text-center fw-semibold fst-italic">ABOUT ME</h2>
+           
+            <p class="fs-4 text mx-3">
+              <p> Am a Three year computer science student at A.C.T (American college of Technology) with a passion for creating beautiful and functional websites and applications. I have experience in HTML, CSS, JavaScript, and several programming languages such as Java and Python. I'm also familiar with several front-end frameworks.
+                <br><br>
+                Vitae totam repellat repudiandae ipsa est? Aliquid placeat fugiat ad, cum at sunt rerum error, porro iste tempore rem, enim similique a eveniet commodi ipsa ab autem beatae et quis!
+                Exercitationem sit praesentium perspiciatis, quia, eaque sequi odio harum a consectetur sunt, optio quo expedita accusamus et libero voluptatibus! Voluptas cumque quo eum accusamus aliquam quaerat aperiam natus ad quasi.
+                Libero aspernatur enim sit accusamus consequuntur laudantium, similique tempora est, natus maiores facilis eius veniam? Similique expedita voluptatem earum, voluptatibus rerum ab eos, minus eveniet porro commodi suscipit? Placeat, exercitationem!
+                Qui ipsam iusto quaerat cumque quas, error autem placeat molestias ex dicta repellendus consequatur excepturi voluptate maiores exercitationem nulla facilis debitis magnam et? Totam distinctio odit facilis earum suscipit libero.
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate, neque autem quas in ratione error minima sequi quaerat facilis omnis ipsa asperiores voluptates magnam nemo doloribus animi voluptatem corrupti.
+                Ex suscipit vitae in quo dolorem ad dolore dolorum ipsum provident. Porro animi eveniet nostrum fuga quibusdam hic officiis maiores, cum veritatis? Iusto quia culpa modi quos nam, tenetur est! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis officiis eaque quia sint hic debitis suscipit rem est, eligendi a, dolorum soluta maiores quo minima fugit maxime fugiat. Nemo, velit!
+                Perspiciatis, eum consectetur! Quidem amet repellendus accusamus consectetur, velit doloribus eveniet delectus optio consequuntur dolores odit molestiae dignissimos dolore fugit nesciunt fugiat, unde ratione saepe quis. Aut, sapiente? Iusto, fugiat?
+              </p> 
+            </p>
+        </div>
+
+        <div id="project"></div>
+
+        <br><br>
+
+        <hr class="border border-dark border-3 opacity-75">
+        <br>
+        <h2 class="display-5 text-center fw-semibold fst-italic">Project That I Have Done</h2>
+        <br>
+
+        <div class="container-xl mb-5">
+            <div class="row text-center gy-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="shadow-sm card p-5">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="p-5 card shadow-sm">
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="p-5 card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border border-dark border-3 opacity-75">
+
+        <br>
+        <div id="contacts"></div>
+        <div class="bg-dark text-secondary px-4 py-3 text-center rounded container-xl mb-5>
+            <div class=" py-2">
+            <h2 class="display-5 fw-semibold text-white py-3 fst-italic">CONTACT ME</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-3">
+                    My Socials: <a href="">Instagram</a> <a href="">Telegram</a> <a href="">Github</a>
+                    <br>
+                    Email: brukget2002@gmail.com<br>
+                    Phone Number:+251(923207415)<br>
+                    Location: Ethiopia,Addis Ababa
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <form> <button type="submit" formaction="index2.html"
+                            class="btn btn-outline-light btn-lg px-5">Contact Page</button></form>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <br><br>
+
+    <div class="text-bg-dark p-4 text-center fw-bold">
+        <footer>
+            <p>All rights reserved. Copyright &copy; 2023 Bruktawet Getu
+        </footer>
+    </div>
+</body>
+
 </html>
